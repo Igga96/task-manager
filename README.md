@@ -1,4 +1,4 @@
-# task-manager
+# translator
 
 ## Project setup
 ```

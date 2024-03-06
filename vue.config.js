@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'task-manager' ? '/task-manager/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/task-manager/' : '/',
   outputDir: 'dist',
   filenameHashing: false,
   chainWebpack: config => {
